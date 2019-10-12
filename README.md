@@ -1,1 +1,1 @@
-### A simple face recognition application
+### A scikit-learn implementation of a simple Naive Bayes Classification
