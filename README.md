@@ -1,1 +1,1 @@
-### A scikit-learn implementation of a simple Naive Bayes Classification
+### A scikit-learn implementation of a simple Principal Component Analysis
