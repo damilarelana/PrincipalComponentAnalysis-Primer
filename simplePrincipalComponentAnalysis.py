@@ -28,7 +28,6 @@ X_2dimension = model.transform(X_iris)  # transform the data to 2 dimensions
 iris['PCA1'] = X_2dimension[:, 0]
 iris['PCA2'] = X_2dimension[:, 1]
 
-# Plot testing dataset
-plt.scatter(xtrain, ytrain)
-plt.plot(xtest, y_predicted)
+# Plot resulting data set
+sns.lmplot("PCA1", "PCA2", hue="species",  scatter_kws={"s": 6}, data=iris, fit_reg=False)
 plt.show()
