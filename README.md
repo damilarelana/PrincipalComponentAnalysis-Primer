@@ -1,1 +1,4 @@
-### A scikit-learn implementation of a simple Principal Component Analysis
+### A simple scikit-learn implementation of PCA (Principal Component Analysis)
+
+* an unsupervised learning: dimensionality reduction primer
+* that uses Iris dataset
